@@ -3,7 +3,7 @@ import ScrollReveal from "./ScrollReveal";
 import cmsDashboard from "@/assets/dashboard-mockup.png";
 import player from "@/assets/android-media-player.jpg";
 import valencia from "@/assets/Nvalencia.png";
-import square from "@/assets/Nsquaree.png";
+import square from "@/assets/Nsquare.png";
 import one from "@/assets/None.png";
 import window from "@/assets/WINDOW.png";
 import eco from "@/assets/Neco.png";
