@@ -5,7 +5,7 @@ import player from "@/assets/android-media-player.jpg";
 import valencia from "@/assets/1valencia.png";
 import square from "@/assets/2squaree.png";
 import one from "@/assets/3one.png";
-import window from "@/assets/4window.png";
+import window from "@/assets/WINDOW.png";
 import eco from "@/assets/5eco.png";
 import lite from "@/assets/6lite.png";
 import cube from "@/assets/7cubee.png";
@@ -14,11 +14,11 @@ import posh from "@/assets/9posh.png";
 import eye from "@/assets/10eeyee.png";
 import touch from "@/assets/11touch.png";
 import epaperDisplay from "@/assets/epaper-display.png";
-import tabletWallView from "@/assets/12wall.png";
-import tabletPortrait from "@/assets/12portrait.png";
-import tabletAngle from "@/assets/12angle.png";
-import tabletPlane from "@/assets/12plane.png";
-import tubeImg from "@/assets/12tube.png";
+import tabletWallView from "@/assets/WALL.png";
+import tabletPortrait from "@/assets/PORTRAIT.png";
+import tabletAngle from "@/assets/ANGLE.png";
+import tabletPlane from "@/assets/PLANE.png";
+import tubeImg from "@/assets/TUBE.png";
 
 const catalogItems = [
   {
