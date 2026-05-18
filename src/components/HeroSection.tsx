@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import LogopostLogo from "./LogopostLogo";
-import situm from "@/assets/situm.png";
+import nsign from "@/assets/nsign.png";
 import hposh from "@/assets/hposhh.png";
 
 const fadeUp = (delay: number) => ({
@@ -31,7 +31,7 @@ const HeroSection = () => (
     <div className="relative z-10 flex flex-col items-center gap-8 max-w-3xl w-full">
       {/* 1. Client logo placeholder */}
       <motion.div {...fadeUp(0.1)}>
-        <img src={situm} alt="Situm" className="h-20 md:h-24 w-auto" />
+        <img src={nsign} alt="NSIGN" className="h-20 md:h-24 w-auto" />
       </motion.div>
 
       {/* 2. Label */}
@@ -53,8 +53,18 @@ const HeroSection = () => (
         <span className="h-px flex-1 bg-accent/60" />
       </motion.div>
 
-      {/* 4. Proposal info */}
+       {/* 4. Proposal info */}
       <motion.div className="flex flex-col items-center gap-1.5 mt-2" {...fadeUp(0.6)}>
+        <p className="text-sm text-muted-foreground">
+          <span className="opacity-60">Nombre de cliente:</span>{" "}
+          <span className="text-foreground/80">NSIGN TV</span>
+          <span className="mx-3 opacity-30">|</span>
+          <span className="opacity-60">Fecha:</span> <span className="text-foreground/80">XX/XX/2026</span>
+        </p>
+        <p className="text-sm text-muted-foreground">
+          <span className="opacity-60">Persona de contacto:</span>{" "}
+          <span className="text-foreground/80">Liana Carvalho</span>
+        </p>
         <p className="text-sm text-muted-foreground">
           <span className="opacity-60">Creado por:</span> <span className="text-foreground/80">David Ochoa Tapia</span>
         </p>
@@ -62,22 +72,6 @@ const HeroSection = () => (
           Responsable del Departamento de Tecnología e Innovación
         </p>
       </motion.div>
-
-     {/* 5. Hero image */}
-<motion.div className="flex flex-col items-center gap-2" {...fadeUp(0.7)}>
-  <motion.div
-    className="relative rounded-2xl overflow-hidden shadow-2xl w-full max-w-[230px] aspect-square mx-auto"
-    whileHover={{ scale: 1.015 }}
-    transition={{ duration: 0.3 }}
-  >
-    <img src={hposh} alt="Kiosko Posh" className="w-full h-full object-cover" />
-    <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
-  </motion.div>
-
-  <p className="text-xs text-muted-foreground/60 italic">
-    Kiosko Posh
-  </p>
-</motion.div>
 
       {/* 6. Scroll indicator */}
 <motion.div
